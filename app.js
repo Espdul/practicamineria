@@ -16,7 +16,7 @@ app.get('/verificar', async (req, res) => {
 });
 
 app.get('/', async (req, res) => {
-  res.send('Hello good vibes')
+  res.send('Hello good vibes, cambio nueva rama')
 });
 
 app.listen(3000, function () {
