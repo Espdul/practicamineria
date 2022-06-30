@@ -15,6 +15,10 @@ app.get('/verificar', async (req, res) => {
 
 });
 
+app.get('/', async (req, res) => {
+  res.send('Hola')
+});
+
 app.listen(3000, function () {
     console.log('La Aplicación está funcionando en el puerto 3000');
 });
